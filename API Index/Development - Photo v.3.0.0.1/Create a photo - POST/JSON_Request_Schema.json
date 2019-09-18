@@ -1,0 +1,29 @@
+{
+  "title": "Photo",
+  "type": "object",
+  "properties": {
+    "fileName": {
+      "title": "File Name",
+      "description": "<p>Name of the photo, extension included</p>",
+      "type": "string",
+      "items": []
+    },
+    "date": {
+      "title": "Date",
+      "description": "<p>Upload date</p>",
+      "type": "string",
+      "items": []
+    },
+    "description": {
+      "title": "Description",
+      "description": "<p>Optional.</p><p>Photo description from user</p>",
+      "type": "string",
+      "items": []
+    }
+  },
+  "required": [
+    "fileName",
+    "date"
+  ],
+  "items": []
+}
