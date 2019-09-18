@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Photo",
+  "type": "object",
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string",
+      "items": []
+    },
+    "fileName": {
+      "title": "File Name",
+      "description": "<p>Name of the photo, extension included</p>",
+      "type": "string",
+      "items": []
+    },
+    "date": {
+      "title": "Date",
+      "description": "<p>Upload date</p>",
+      "type": "string",
+      "items": []
+    },
+    "description": {
+      "title": "Description",
+      "description": "<p>Optional.</p><p>Photo description from user</p>",
+      "type": "string",
+      "items": []
+    }
+  },
+  "required": [
+    "id",
+    "fileName",
+    "date"
+  ],
+  "items": []
+}
