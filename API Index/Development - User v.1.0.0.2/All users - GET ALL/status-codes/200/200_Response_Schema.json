@@ -1,0 +1,63 @@
+{
+  "title": "",
+  "type": "object",
+  "properties": {
+    "data": {
+      "title": "Data",
+      "type": "array",
+      "items": {
+        "title": "User",
+        "description": "<p>User of the platform</p>",
+        "type": "object",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "string",
+            "items": []
+          },
+          "userName": {
+            "title": "User Name",
+            "type": "string",
+            "items": [],
+            "minLength": 4,
+            "maxLength": 20
+          },
+          "firstName": {
+            "title": "First Name",
+            "type": "string",
+            "items": [],
+            "minLength": 1
+          },
+          "lastName": {
+            "title": "Last Name",
+            "type": "string",
+            "items": [],
+            "minLength": 1
+          },
+          "dob": {
+            "title": "DoB",
+            "type": "string",
+            "items": []
+          },
+          "email": {
+            "title": "Email",
+            "type": "string",
+            "items": []
+          }
+        },
+        "required": [
+          "id",
+          "userName",
+          "firstName",
+          "lastName",
+          "email"
+        ],
+        "items": []
+      }
+    }
+  },
+  "required": [
+    "data"
+  ],
+  "items": []
+}
