@@ -1,0 +1,12 @@
+{
+  "title": "",
+  "type": "object",
+  "properties": {
+    "": {
+      "title": "",
+      "type": "string",
+      "items": []
+    }
+  },
+  "items": []
+}
